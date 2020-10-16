@@ -1,12 +1,79 @@
 /* Global Styles */
 
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 29px;
+}
+
+h3,
+p {
+  font-size: 19px;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 /* Section Styles */
+
+main > article > section {
+  padding: 65px 20px;
+}
 
 /* Grid Styles */
 
 /* Card Styles */
 
+.card {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.card section {
+  padding: 20px;
+}
+
+.card p {
+  font-size: 17px;
+}
+
 /* Header Styles */
+
+main > article > header {
+  background: linear-gradient(to right, #23517f, #80424d);
+  color: white;
+  padding: 0 20px;
+  height: calc(100vh - 80px);
+}
+
+main > article > header h1 {
+  margin-top: 0;
+}
+
+main > article > header a {
+  color: white;
+  text-decoration: none;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 20px;
+  display: inline-block;
+}
 
 /* Button Styles */
 
